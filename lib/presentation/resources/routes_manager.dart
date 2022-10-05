@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-import '../presentation/home/home.dart';
-import '../presentation/login/login.dart';
-import '../presentation/on_boarding/on_boarding.dart';
-import '../presentation/register/register.dart';
-import '../presentation/splash/splash.dart';
-import '../presentation/store_details/store_details.dart';
-import '../presentation/forgot_password/forgot_password.dart';
+import '../home/home.dart';
+import '../login/login.dart';
+import '../on_boarding/on_boarding.dart';
+import '../register/register.dart';
+import '../splash/splash.dart';
+import '../store_details/store_details.dart';
+import '../forgot_password/forgot_password.dart';
 
 class Routes {
   static const String splashRoute = '/';
