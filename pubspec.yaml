@@ -38,6 +38,7 @@ dependencies:
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
+  flutter_svg: ^1.1.5
   flutter_test:
     sdk: flutter
 
@@ -62,6 +63,10 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/icon/splash_logo.png
+    - assets/images/onboarding/onboarding_logo1.svg
+    - assets/images/onboarding/onboarding_logo2.svg
+    - assets/images/onboarding/onboarding_logo3.svg
+    - assets/images/onboarding/onboarding_logo4.svg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
