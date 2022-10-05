@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../resources/strings_manager.dart';
 import '../home/home.dart';
 import '../login/login.dart';
 import '../on_boarding/on_boarding.dart';
@@ -45,7 +46,7 @@ class RouteGenerator {
         builder: (_) => Scaffold(
               appBar: AppBar(),
               body: const Center(
-                child: Text('No Route Found'),
+                child: Text(AppStrings.noRouteFound),
               ),
             ));
   }
