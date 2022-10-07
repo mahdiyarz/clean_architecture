@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 
 import 'package:flutter_svg/flutter_svg.dart';
 
+import '../../domain/model.dart';
 import '../resources/values_manager.dart';
 import '../resources/assets_manager.dart';
 import '../resources/strings_manager.dart';
@@ -206,12 +207,4 @@ class OnBoardingPage extends StatelessWidget {
       ],
     );
   }
-}
-
-class SliderObject {
-  final String title;
-  final String subTitle;
-  final String image;
-
-  SliderObject(this.title, this.subTitle, this.image);
 }
